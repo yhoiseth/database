@@ -4,6 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "==19.3b0"
+isort = "*"
+flake8 = "*"
+mypy = "*"
+django-stubs = "*"
+seed-isort-config = "*"
+pre-commit = "*"
 
 [packages]
 django = "*"
