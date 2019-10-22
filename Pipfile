@@ -14,9 +14,9 @@ pre-commit = "*"
 
 [packages]
 django = "*"
-psycopg2 = "*"
 gunicorn = "*"
 django-heroku = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
